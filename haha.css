@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: rgb(235, 235, 235);
+}
+
+.navcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 10px 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-style: inherit;
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar h1 {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.header1, .header2 {
+    display: flex;
+    align-items: center;
+}
+
+.header1 a, .header2 a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+.text {
+    width: 60%;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.pic {
+    width: 30%;
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    margin-top: 40px;
+}
+
+.project1, .project2, .project3 {
+    padding-top: 5px;
+    text-align: center;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #2d3748;
+    height: 400px;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.project1:hover, .project2:hover, .project3:hover {
+    background-color: #4a5568;
+    transform: scale(1.05);
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;  /* Corrected this line */
+}
+.des{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    font-weight: 400;
+    justify-content: left;
+    align-items:center ;
+    height: auto;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+   text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+ a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
